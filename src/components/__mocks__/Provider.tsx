@@ -1,7 +1,4 @@
-// testHelpers.js
-const context = {
-  onAddToCartClick: jest.fn()
-};
+import context from "./testHelper";
 
 export const MyContext = {
   Consumer(props: any) {
